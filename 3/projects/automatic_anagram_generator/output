@@ -1,0 +1,1100 @@
+Enter your phrase to anagram.Enter your minimum word size.phrase - ['a', 'n', 'd', 'a', 'n', 'd']
+word_list - ['ann', 'dada', 'add', 'dana', 'nan', 'dad', 'dan', 'ada', 'anna', 'and']
+left - ['a', 'n', 'd', 'a', 'n', 'd']
+index - [0]
+chosen - []
+anagrams - []
+nest - 0
+word (hopefully) - ann
+ann
+opt 2 ann
+phrase - ['a', 'n', 'd', 'a', 'n', 'd']
+word_list - ['ann', 'dada', 'add', 'dana', 'nan', 'dad', 'dan', 'ada', 'anna', 'and']
+left - ['d', 'a', 'd']
+index - [0, 0]
+chosen - ['ann']
+anagrams - []
+nest - 1
+word (hopefully) - ann
+ann
+phrase - ['a', 'n', 'd', 'a', 'n', 'd']
+word_list - ['ann', 'dada', 'add', 'dana', 'nan', 'dad', 'dan', 'ada', 'anna', 'and']
+left - ['d', 'a', 'd']
+index - [0, 1]
+chosen - ['ann']
+anagrams - []
+nest - 1
+word (hopefully) - dada
+dada
+phrase - ['a', 'n', 'd', 'a', 'n', 'd']
+word_list - ['ann', 'dada', 'add', 'dana', 'nan', 'dad', 'dan', 'ada', 'anna', 'and']
+left - ['d', 'a', 'd']
+index - [0, 2]
+chosen - ['ann']
+anagrams - []
+nest - 1
+word (hopefully) - add
+add
+opt 1 ann add
+phrase - ['a', 'n', 'd', 'a', 'n', 'd']
+word_list - ['ann', 'dada', 'add', 'dana', 'nan', 'dad', 'dan', 'ada', 'anna', 'and']
+left - ['d', 'a', 'd']
+index - [0, 3]
+chosen - ['ann']
+anagrams - [['ann', 'add']]
+nest - 1
+word (hopefully) - dana
+dana
+phrase - ['a', 'n', 'd', 'a', 'n', 'd']
+word_list - ['ann', 'dada', 'add', 'dana', 'nan', 'dad', 'dan', 'ada', 'anna', 'and']
+left - ['d', 'a', 'd']
+index - [0, 4]
+chosen - ['ann']
+anagrams - [['ann', 'add']]
+nest - 1
+word (hopefully) - nan
+nan
+phrase - ['a', 'n', 'd', 'a', 'n', 'd']
+word_list - ['ann', 'dada', 'add', 'dana', 'nan', 'dad', 'dan', 'ada', 'anna', 'and']
+left - ['d', 'a', 'd']
+index - [0, 5]
+chosen - ['ann']
+anagrams - [['ann', 'add']]
+nest - 1
+word (hopefully) - dad
+dad
+opt 1 ann dad
+phrase - ['a', 'n', 'd', 'a', 'n', 'd']
+word_list - ['ann', 'dada', 'add', 'dana', 'nan', 'dad', 'dan', 'ada', 'anna', 'and']
+left - ['d', 'a', 'd']
+index - [0, 6]
+chosen - ['ann']
+anagrams - [['ann', 'add'], ['ann', 'dad']]
+nest - 1
+word (hopefully) - dan
+dan
+phrase - ['a', 'n', 'd', 'a', 'n', 'd']
+word_list - ['ann', 'dada', 'add', 'dana', 'nan', 'dad', 'dan', 'ada', 'anna', 'and']
+left - ['d', 'a', 'd']
+index - [0, 7]
+chosen - ['ann']
+anagrams - [['ann', 'add'], ['ann', 'dad']]
+nest - 1
+word (hopefully) - ada
+ada
+phrase - ['a', 'n', 'd', 'a', 'n', 'd']
+word_list - ['ann', 'dada', 'add', 'dana', 'nan', 'dad', 'dan', 'ada', 'anna', 'and']
+left - ['d', 'a', 'd']
+index - [0, 8]
+chosen - ['ann']
+anagrams - [['ann', 'add'], ['ann', 'dad']]
+nest - 1
+word (hopefully) - anna
+anna
+phrase - ['a', 'n', 'd', 'a', 'n', 'd']
+word_list - ['ann', 'dada', 'add', 'dana', 'nan', 'dad', 'dan', 'ada', 'anna', 'and']
+left - ['d', 'a', 'd']
+index - [0, 9]
+chosen - ['ann']
+anagrams - [['ann', 'add'], ['ann', 'dad']]
+nest - 1
+word (hopefully) - and
+and
+phrase - ['a', 'n', 'd', 'a', 'n', 'd']
+word_list - ['ann', 'dada', 'add', 'dana', 'nan', 'dad', 'dan', 'ada', 'anna', 'and']
+left - ['d', 'a', 'd']
+index - [0, 10]
+chosen - ['ann']
+anagrams - [['ann', 'add'], ['ann', 'dad']]
+nest - 1
+opt 3 ann
+phrase - ['a', 'n', 'd', 'a', 'n', 'd']
+word_list - ['ann', 'dada', 'add', 'dana', 'nan', 'dad', 'dan', 'ada', 'anna', 'and']
+left - ['d', 'a', 'd', 'a', 'n', 'n']
+index - [1, 10]
+chosen - []
+anagrams - [['ann', 'add'], ['ann', 'dad']]
+nest - 0
+word (hopefully) - dada
+dada
+opt 2 dada
+phrase - ['a', 'n', 'd', 'a', 'n', 'd']
+word_list - ['ann', 'dada', 'add', 'dana', 'nan', 'dad', 'dan', 'ada', 'anna', 'and']
+left - ['n', 'n']
+index - [1, 0]
+chosen - ['dada']
+anagrams - [['ann', 'add'], ['ann', 'dad']]
+nest - 1
+word (hopefully) - ann
+ann
+phrase - ['a', 'n', 'd', 'a', 'n', 'd']
+word_list - ['ann', 'dada', 'add', 'dana', 'nan', 'dad', 'dan', 'ada', 'anna', 'and']
+left - ['n', 'n']
+index - [1, 1]
+chosen - ['dada']
+anagrams - [['ann', 'add'], ['ann', 'dad']]
+nest - 1
+word (hopefully) - dada
+dada
+phrase - ['a', 'n', 'd', 'a', 'n', 'd']
+word_list - ['ann', 'dada', 'add', 'dana', 'nan', 'dad', 'dan', 'ada', 'anna', 'and']
+left - ['n', 'n']
+index - [1, 2]
+chosen - ['dada']
+anagrams - [['ann', 'add'], ['ann', 'dad']]
+nest - 1
+word (hopefully) - add
+add
+phrase - ['a', 'n', 'd', 'a', 'n', 'd']
+word_list - ['ann', 'dada', 'add', 'dana', 'nan', 'dad', 'dan', 'ada', 'anna', 'and']
+left - ['n', 'n']
+index - [1, 3]
+chosen - ['dada']
+anagrams - [['ann', 'add'], ['ann', 'dad']]
+nest - 1
+word (hopefully) - dana
+dana
+phrase - ['a', 'n', 'd', 'a', 'n', 'd']
+word_list - ['ann', 'dada', 'add', 'dana', 'nan', 'dad', 'dan', 'ada', 'anna', 'and']
+left - ['n', 'n']
+index - [1, 4]
+chosen - ['dada']
+anagrams - [['ann', 'add'], ['ann', 'dad']]
+nest - 1
+word (hopefully) - nan
+nan
+phrase - ['a', 'n', 'd', 'a', 'n', 'd']
+word_list - ['ann', 'dada', 'add', 'dana', 'nan', 'dad', 'dan', 'ada', 'anna', 'and']
+left - ['n', 'n']
+index - [1, 5]
+chosen - ['dada']
+anagrams - [['ann', 'add'], ['ann', 'dad']]
+nest - 1
+word (hopefully) - dad
+dad
+phrase - ['a', 'n', 'd', 'a', 'n', 'd']
+word_list - ['ann', 'dada', 'add', 'dana', 'nan', 'dad', 'dan', 'ada', 'anna', 'and']
+left - ['n', 'n']
+index - [1, 6]
+chosen - ['dada']
+anagrams - [['ann', 'add'], ['ann', 'dad']]
+nest - 1
+word (hopefully) - dan
+dan
+phrase - ['a', 'n', 'd', 'a', 'n', 'd']
+word_list - ['ann', 'dada', 'add', 'dana', 'nan', 'dad', 'dan', 'ada', 'anna', 'and']
+left - ['n', 'n']
+index - [1, 7]
+chosen - ['dada']
+anagrams - [['ann', 'add'], ['ann', 'dad']]
+nest - 1
+word (hopefully) - ada
+ada
+phrase - ['a', 'n', 'd', 'a', 'n', 'd']
+word_list - ['ann', 'dada', 'add', 'dana', 'nan', 'dad', 'dan', 'ada', 'anna', 'and']
+left - ['n', 'n']
+index - [1, 8]
+chosen - ['dada']
+anagrams - [['ann', 'add'], ['ann', 'dad']]
+nest - 1
+word (hopefully) - anna
+anna
+phrase - ['a', 'n', 'd', 'a', 'n', 'd']
+word_list - ['ann', 'dada', 'add', 'dana', 'nan', 'dad', 'dan', 'ada', 'anna', 'and']
+left - ['n', 'n']
+index - [1, 9]
+chosen - ['dada']
+anagrams - [['ann', 'add'], ['ann', 'dad']]
+nest - 1
+word (hopefully) - and
+and
+phrase - ['a', 'n', 'd', 'a', 'n', 'd']
+word_list - ['ann', 'dada', 'add', 'dana', 'nan', 'dad', 'dan', 'ada', 'anna', 'and']
+left - ['n', 'n']
+index - [1, 10]
+chosen - ['dada']
+anagrams - [['ann', 'add'], ['ann', 'dad']]
+nest - 1
+opt 3 dada
+phrase - ['a', 'n', 'd', 'a', 'n', 'd']
+word_list - ['ann', 'dada', 'add', 'dana', 'nan', 'dad', 'dan', 'ada', 'anna', 'and']
+left - ['n', 'n', 'd', 'a', 'd', 'a']
+index - [2, 10]
+chosen - []
+anagrams - [['ann', 'add'], ['ann', 'dad']]
+nest - 0
+word (hopefully) - add
+add
+opt 2 add
+phrase - ['a', 'n', 'd', 'a', 'n', 'd']
+word_list - ['ann', 'dada', 'add', 'dana', 'nan', 'dad', 'dan', 'ada', 'anna', 'and']
+left - ['n', 'n', 'a']
+index - [2, 0]
+chosen - ['add']
+anagrams - [['ann', 'add'], ['ann', 'dad']]
+nest - 1
+word (hopefully) - ann
+ann
+opt 1 add ann
+phrase - ['a', 'n', 'd', 'a', 'n', 'd']
+word_list - ['ann', 'dada', 'add', 'dana', 'nan', 'dad', 'dan', 'ada', 'anna', 'and']
+left - ['n', 'n', 'a']
+index - [2, 1]
+chosen - ['add']
+anagrams - [['ann', 'add'], ['ann', 'dad'], ['add', 'ann']]
+nest - 1
+word (hopefully) - dada
+dada
+phrase - ['a', 'n', 'd', 'a', 'n', 'd']
+word_list - ['ann', 'dada', 'add', 'dana', 'nan', 'dad', 'dan', 'ada', 'anna', 'and']
+left - ['n', 'n', 'a']
+index - [2, 2]
+chosen - ['add']
+anagrams - [['ann', 'add'], ['ann', 'dad'], ['add', 'ann']]
+nest - 1
+word (hopefully) - add
+add
+phrase - ['a', 'n', 'd', 'a', 'n', 'd']
+word_list - ['ann', 'dada', 'add', 'dana', 'nan', 'dad', 'dan', 'ada', 'anna', 'and']
+left - ['n', 'n', 'a']
+index - [2, 3]
+chosen - ['add']
+anagrams - [['ann', 'add'], ['ann', 'dad'], ['add', 'ann']]
+nest - 1
+word (hopefully) - dana
+dana
+phrase - ['a', 'n', 'd', 'a', 'n', 'd']
+word_list - ['ann', 'dada', 'add', 'dana', 'nan', 'dad', 'dan', 'ada', 'anna', 'and']
+left - ['n', 'n', 'a']
+index - [2, 4]
+chosen - ['add']
+anagrams - [['ann', 'add'], ['ann', 'dad'], ['add', 'ann']]
+nest - 1
+word (hopefully) - nan
+nan
+opt 1 add nan
+phrase - ['a', 'n', 'd', 'a', 'n', 'd']
+word_list - ['ann', 'dada', 'add', 'dana', 'nan', 'dad', 'dan', 'ada', 'anna', 'and']
+left - ['n', 'n', 'a']
+index - [2, 5]
+chosen - ['add']
+anagrams - [['ann', 'add'], ['ann', 'dad'], ['add', 'ann'], ['add', 'nan']]
+nest - 1
+word (hopefully) - dad
+dad
+phrase - ['a', 'n', 'd', 'a', 'n', 'd']
+word_list - ['ann', 'dada', 'add', 'dana', 'nan', 'dad', 'dan', 'ada', 'anna', 'and']
+left - ['n', 'n', 'a']
+index - [2, 6]
+chosen - ['add']
+anagrams - [['ann', 'add'], ['ann', 'dad'], ['add', 'ann'], ['add', 'nan']]
+nest - 1
+word (hopefully) - dan
+dan
+phrase - ['a', 'n', 'd', 'a', 'n', 'd']
+word_list - ['ann', 'dada', 'add', 'dana', 'nan', 'dad', 'dan', 'ada', 'anna', 'and']
+left - ['n', 'n', 'a']
+index - [2, 7]
+chosen - ['add']
+anagrams - [['ann', 'add'], ['ann', 'dad'], ['add', 'ann'], ['add', 'nan']]
+nest - 1
+word (hopefully) - ada
+ada
+phrase - ['a', 'n', 'd', 'a', 'n', 'd']
+word_list - ['ann', 'dada', 'add', 'dana', 'nan', 'dad', 'dan', 'ada', 'anna', 'and']
+left - ['n', 'n', 'a']
+index - [2, 8]
+chosen - ['add']
+anagrams - [['ann', 'add'], ['ann', 'dad'], ['add', 'ann'], ['add', 'nan']]
+nest - 1
+word (hopefully) - anna
+anna
+phrase - ['a', 'n', 'd', 'a', 'n', 'd']
+word_list - ['ann', 'dada', 'add', 'dana', 'nan', 'dad', 'dan', 'ada', 'anna', 'and']
+left - ['n', 'n', 'a']
+index - [2, 9]
+chosen - ['add']
+anagrams - [['ann', 'add'], ['ann', 'dad'], ['add', 'ann'], ['add', 'nan']]
+nest - 1
+word (hopefully) - and
+and
+phrase - ['a', 'n', 'd', 'a', 'n', 'd']
+word_list - ['ann', 'dada', 'add', 'dana', 'nan', 'dad', 'dan', 'ada', 'anna', 'and']
+left - ['n', 'n', 'a']
+index - [2, 10]
+chosen - ['add']
+anagrams - [['ann', 'add'], ['ann', 'dad'], ['add', 'ann'], ['add', 'nan']]
+nest - 1
+opt 3 add
+phrase - ['a', 'n', 'd', 'a', 'n', 'd']
+word_list - ['ann', 'dada', 'add', 'dana', 'nan', 'dad', 'dan', 'ada', 'anna', 'and']
+left - ['n', 'n', 'a', 'a', 'd', 'd']
+index - [3, 10]
+chosen - []
+anagrams - [['ann', 'add'], ['ann', 'dad'], ['add', 'ann'], ['add', 'nan']]
+nest - 0
+word (hopefully) - dana
+dana
+opt 2 dana
+phrase - ['a', 'n', 'd', 'a', 'n', 'd']
+word_list - ['ann', 'dada', 'add', 'dana', 'nan', 'dad', 'dan', 'ada', 'anna', 'and']
+left - ['n', 'd']
+index - [3, 0]
+chosen - ['dana']
+anagrams - [['ann', 'add'], ['ann', 'dad'], ['add', 'ann'], ['add', 'nan']]
+nest - 1
+word (hopefully) - ann
+ann
+phrase - ['a', 'n', 'd', 'a', 'n', 'd']
+word_list - ['ann', 'dada', 'add', 'dana', 'nan', 'dad', 'dan', 'ada', 'anna', 'and']
+left - ['n', 'd']
+index - [3, 1]
+chosen - ['dana']
+anagrams - [['ann', 'add'], ['ann', 'dad'], ['add', 'ann'], ['add', 'nan']]
+nest - 1
+word (hopefully) - dada
+dada
+phrase - ['a', 'n', 'd', 'a', 'n', 'd']
+word_list - ['ann', 'dada', 'add', 'dana', 'nan', 'dad', 'dan', 'ada', 'anna', 'and']
+left - ['n', 'd']
+index - [3, 2]
+chosen - ['dana']
+anagrams - [['ann', 'add'], ['ann', 'dad'], ['add', 'ann'], ['add', 'nan']]
+nest - 1
+word (hopefully) - add
+add
+phrase - ['a', 'n', 'd', 'a', 'n', 'd']
+word_list - ['ann', 'dada', 'add', 'dana', 'nan', 'dad', 'dan', 'ada', 'anna', 'and']
+left - ['n', 'd']
+index - [3, 3]
+chosen - ['dana']
+anagrams - [['ann', 'add'], ['ann', 'dad'], ['add', 'ann'], ['add', 'nan']]
+nest - 1
+word (hopefully) - dana
+dana
+phrase - ['a', 'n', 'd', 'a', 'n', 'd']
+word_list - ['ann', 'dada', 'add', 'dana', 'nan', 'dad', 'dan', 'ada', 'anna', 'and']
+left - ['n', 'd']
+index - [3, 4]
+chosen - ['dana']
+anagrams - [['ann', 'add'], ['ann', 'dad'], ['add', 'ann'], ['add', 'nan']]
+nest - 1
+word (hopefully) - nan
+nan
+phrase - ['a', 'n', 'd', 'a', 'n', 'd']
+word_list - ['ann', 'dada', 'add', 'dana', 'nan', 'dad', 'dan', 'ada', 'anna', 'and']
+left - ['n', 'd']
+index - [3, 5]
+chosen - ['dana']
+anagrams - [['ann', 'add'], ['ann', 'dad'], ['add', 'ann'], ['add', 'nan']]
+nest - 1
+word (hopefully) - dad
+dad
+phrase - ['a', 'n', 'd', 'a', 'n', 'd']
+word_list - ['ann', 'dada', 'add', 'dana', 'nan', 'dad', 'dan', 'ada', 'anna', 'and']
+left - ['n', 'd']
+index - [3, 6]
+chosen - ['dana']
+anagrams - [['ann', 'add'], ['ann', 'dad'], ['add', 'ann'], ['add', 'nan']]
+nest - 1
+word (hopefully) - dan
+dan
+phrase - ['a', 'n', 'd', 'a', 'n', 'd']
+word_list - ['ann', 'dada', 'add', 'dana', 'nan', 'dad', 'dan', 'ada', 'anna', 'and']
+left - ['n', 'd']
+index - [3, 7]
+chosen - ['dana']
+anagrams - [['ann', 'add'], ['ann', 'dad'], ['add', 'ann'], ['add', 'nan']]
+nest - 1
+word (hopefully) - ada
+ada
+phrase - ['a', 'n', 'd', 'a', 'n', 'd']
+word_list - ['ann', 'dada', 'add', 'dana', 'nan', 'dad', 'dan', 'ada', 'anna', 'and']
+left - ['n', 'd']
+index - [3, 8]
+chosen - ['dana']
+anagrams - [['ann', 'add'], ['ann', 'dad'], ['add', 'ann'], ['add', 'nan']]
+nest - 1
+word (hopefully) - anna
+anna
+phrase - ['a', 'n', 'd', 'a', 'n', 'd']
+word_list - ['ann', 'dada', 'add', 'dana', 'nan', 'dad', 'dan', 'ada', 'anna', 'and']
+left - ['n', 'd']
+index - [3, 9]
+chosen - ['dana']
+anagrams - [['ann', 'add'], ['ann', 'dad'], ['add', 'ann'], ['add', 'nan']]
+nest - 1
+word (hopefully) - and
+and
+phrase - ['a', 'n', 'd', 'a', 'n', 'd']
+word_list - ['ann', 'dada', 'add', 'dana', 'nan', 'dad', 'dan', 'ada', 'anna', 'and']
+left - ['n', 'd']
+index - [3, 10]
+chosen - ['dana']
+anagrams - [['ann', 'add'], ['ann', 'dad'], ['add', 'ann'], ['add', 'nan']]
+nest - 1
+opt 3 dana
+phrase - ['a', 'n', 'd', 'a', 'n', 'd']
+word_list - ['ann', 'dada', 'add', 'dana', 'nan', 'dad', 'dan', 'ada', 'anna', 'and']
+left - ['n', 'd', 'd', 'a', 'n', 'a']
+index - [4, 10]
+chosen - []
+anagrams - [['ann', 'add'], ['ann', 'dad'], ['add', 'ann'], ['add', 'nan']]
+nest - 0
+word (hopefully) - nan
+nan
+opt 2 nan
+phrase - ['a', 'n', 'd', 'a', 'n', 'd']
+word_list - ['ann', 'dada', 'add', 'dana', 'nan', 'dad', 'dan', 'ada', 'anna', 'and']
+left - ['d', 'd', 'a']
+index - [4, 0]
+chosen - ['nan']
+anagrams - [['ann', 'add'], ['ann', 'dad'], ['add', 'ann'], ['add', 'nan']]
+nest - 1
+word (hopefully) - ann
+ann
+phrase - ['a', 'n', 'd', 'a', 'n', 'd']
+word_list - ['ann', 'dada', 'add', 'dana', 'nan', 'dad', 'dan', 'ada', 'anna', 'and']
+left - ['d', 'd', 'a']
+index - [4, 1]
+chosen - ['nan']
+anagrams - [['ann', 'add'], ['ann', 'dad'], ['add', 'ann'], ['add', 'nan']]
+nest - 1
+word (hopefully) - dada
+dada
+phrase - ['a', 'n', 'd', 'a', 'n', 'd']
+word_list - ['ann', 'dada', 'add', 'dana', 'nan', 'dad', 'dan', 'ada', 'anna', 'and']
+left - ['d', 'd', 'a']
+index - [4, 2]
+chosen - ['nan']
+anagrams - [['ann', 'add'], ['ann', 'dad'], ['add', 'ann'], ['add', 'nan']]
+nest - 1
+word (hopefully) - add
+add
+opt 1 nan add
+phrase - ['a', 'n', 'd', 'a', 'n', 'd']
+word_list - ['ann', 'dada', 'add', 'dana', 'nan', 'dad', 'dan', 'ada', 'anna', 'and']
+left - ['d', 'd', 'a']
+index - [4, 3]
+chosen - ['nan']
+anagrams - [['ann', 'add'], ['ann', 'dad'], ['add', 'ann'], ['add', 'nan'], ['nan', 'add']]
+nest - 1
+word (hopefully) - dana
+dana
+phrase - ['a', 'n', 'd', 'a', 'n', 'd']
+word_list - ['ann', 'dada', 'add', 'dana', 'nan', 'dad', 'dan', 'ada', 'anna', 'and']
+left - ['d', 'd', 'a']
+index - [4, 4]
+chosen - ['nan']
+anagrams - [['ann', 'add'], ['ann', 'dad'], ['add', 'ann'], ['add', 'nan'], ['nan', 'add']]
+nest - 1
+word (hopefully) - nan
+nan
+phrase - ['a', 'n', 'd', 'a', 'n', 'd']
+word_list - ['ann', 'dada', 'add', 'dana', 'nan', 'dad', 'dan', 'ada', 'anna', 'and']
+left - ['d', 'd', 'a']
+index - [4, 5]
+chosen - ['nan']
+anagrams - [['ann', 'add'], ['ann', 'dad'], ['add', 'ann'], ['add', 'nan'], ['nan', 'add']]
+nest - 1
+word (hopefully) - dad
+dad
+opt 1 nan dad
+phrase - ['a', 'n', 'd', 'a', 'n', 'd']
+word_list - ['ann', 'dada', 'add', 'dana', 'nan', 'dad', 'dan', 'ada', 'anna', 'and']
+left - ['d', 'd', 'a']
+index - [4, 6]
+chosen - ['nan']
+anagrams - [['ann', 'add'], ['ann', 'dad'], ['add', 'ann'], ['add', 'nan'], ['nan', 'add'], ['nan', 'dad']]
+nest - 1
+word (hopefully) - dan
+dan
+phrase - ['a', 'n', 'd', 'a', 'n', 'd']
+word_list - ['ann', 'dada', 'add', 'dana', 'nan', 'dad', 'dan', 'ada', 'anna', 'and']
+left - ['d', 'd', 'a']
+index - [4, 7]
+chosen - ['nan']
+anagrams - [['ann', 'add'], ['ann', 'dad'], ['add', 'ann'], ['add', 'nan'], ['nan', 'add'], ['nan', 'dad']]
+nest - 1
+word (hopefully) - ada
+ada
+phrase - ['a', 'n', 'd', 'a', 'n', 'd']
+word_list - ['ann', 'dada', 'add', 'dana', 'nan', 'dad', 'dan', 'ada', 'anna', 'and']
+left - ['d', 'd', 'a']
+index - [4, 8]
+chosen - ['nan']
+anagrams - [['ann', 'add'], ['ann', 'dad'], ['add', 'ann'], ['add', 'nan'], ['nan', 'add'], ['nan', 'dad']]
+nest - 1
+word (hopefully) - anna
+anna
+phrase - ['a', 'n', 'd', 'a', 'n', 'd']
+word_list - ['ann', 'dada', 'add', 'dana', 'nan', 'dad', 'dan', 'ada', 'anna', 'and']
+left - ['d', 'd', 'a']
+index - [4, 9]
+chosen - ['nan']
+anagrams - [['ann', 'add'], ['ann', 'dad'], ['add', 'ann'], ['add', 'nan'], ['nan', 'add'], ['nan', 'dad']]
+nest - 1
+word (hopefully) - and
+and
+phrase - ['a', 'n', 'd', 'a', 'n', 'd']
+word_list - ['ann', 'dada', 'add', 'dana', 'nan', 'dad', 'dan', 'ada', 'anna', 'and']
+left - ['d', 'd', 'a']
+index - [4, 10]
+chosen - ['nan']
+anagrams - [['ann', 'add'], ['ann', 'dad'], ['add', 'ann'], ['add', 'nan'], ['nan', 'add'], ['nan', 'dad']]
+nest - 1
+opt 3 nan
+phrase - ['a', 'n', 'd', 'a', 'n', 'd']
+word_list - ['ann', 'dada', 'add', 'dana', 'nan', 'dad', 'dan', 'ada', 'anna', 'and']
+left - ['d', 'd', 'a', 'n', 'a', 'n']
+index - [5, 10]
+chosen - []
+anagrams - [['ann', 'add'], ['ann', 'dad'], ['add', 'ann'], ['add', 'nan'], ['nan', 'add'], ['nan', 'dad']]
+nest - 0
+word (hopefully) - dad
+dad
+opt 2 dad
+phrase - ['a', 'n', 'd', 'a', 'n', 'd']
+word_list - ['ann', 'dada', 'add', 'dana', 'nan', 'dad', 'dan', 'ada', 'anna', 'and']
+left - ['n', 'a', 'n']
+index - [5, 0]
+chosen - ['dad']
+anagrams - [['ann', 'add'], ['ann', 'dad'], ['add', 'ann'], ['add', 'nan'], ['nan', 'add'], ['nan', 'dad']]
+nest - 1
+word (hopefully) - ann
+ann
+opt 1 dad ann
+phrase - ['a', 'n', 'd', 'a', 'n', 'd']
+word_list - ['ann', 'dada', 'add', 'dana', 'nan', 'dad', 'dan', 'ada', 'anna', 'and']
+left - ['n', 'a', 'n']
+index - [5, 1]
+chosen - ['dad']
+anagrams - [['ann', 'add'], ['ann', 'dad'], ['add', 'ann'], ['add', 'nan'], ['nan', 'add'], ['nan', 'dad'], ['dad', 'ann']]
+nest - 1
+word (hopefully) - dada
+dada
+phrase - ['a', 'n', 'd', 'a', 'n', 'd']
+word_list - ['ann', 'dada', 'add', 'dana', 'nan', 'dad', 'dan', 'ada', 'anna', 'and']
+left - ['n', 'a', 'n']
+index - [5, 2]
+chosen - ['dad']
+anagrams - [['ann', 'add'], ['ann', 'dad'], ['add', 'ann'], ['add', 'nan'], ['nan', 'add'], ['nan', 'dad'], ['dad', 'ann']]
+nest - 1
+word (hopefully) - add
+add
+phrase - ['a', 'n', 'd', 'a', 'n', 'd']
+word_list - ['ann', 'dada', 'add', 'dana', 'nan', 'dad', 'dan', 'ada', 'anna', 'and']
+left - ['n', 'a', 'n']
+index - [5, 3]
+chosen - ['dad']
+anagrams - [['ann', 'add'], ['ann', 'dad'], ['add', 'ann'], ['add', 'nan'], ['nan', 'add'], ['nan', 'dad'], ['dad', 'ann']]
+nest - 1
+word (hopefully) - dana
+dana
+phrase - ['a', 'n', 'd', 'a', 'n', 'd']
+word_list - ['ann', 'dada', 'add', 'dana', 'nan', 'dad', 'dan', 'ada', 'anna', 'and']
+left - ['n', 'a', 'n']
+index - [5, 4]
+chosen - ['dad']
+anagrams - [['ann', 'add'], ['ann', 'dad'], ['add', 'ann'], ['add', 'nan'], ['nan', 'add'], ['nan', 'dad'], ['dad', 'ann']]
+nest - 1
+word (hopefully) - nan
+nan
+opt 1 dad nan
+phrase - ['a', 'n', 'd', 'a', 'n', 'd']
+word_list - ['ann', 'dada', 'add', 'dana', 'nan', 'dad', 'dan', 'ada', 'anna', 'and']
+left - ['n', 'a', 'n']
+index - [5, 5]
+chosen - ['dad']
+anagrams - [['ann', 'add'], ['ann', 'dad'], ['add', 'ann'], ['add', 'nan'], ['nan', 'add'], ['nan', 'dad'], ['dad', 'ann'], ['dad', 'nan']]
+nest - 1
+word (hopefully) - dad
+dad
+phrase - ['a', 'n', 'd', 'a', 'n', 'd']
+word_list - ['ann', 'dada', 'add', 'dana', 'nan', 'dad', 'dan', 'ada', 'anna', 'and']
+left - ['n', 'a', 'n']
+index - [5, 6]
+chosen - ['dad']
+anagrams - [['ann', 'add'], ['ann', 'dad'], ['add', 'ann'], ['add', 'nan'], ['nan', 'add'], ['nan', 'dad'], ['dad', 'ann'], ['dad', 'nan']]
+nest - 1
+word (hopefully) - dan
+dan
+phrase - ['a', 'n', 'd', 'a', 'n', 'd']
+word_list - ['ann', 'dada', 'add', 'dana', 'nan', 'dad', 'dan', 'ada', 'anna', 'and']
+left - ['n', 'a', 'n']
+index - [5, 7]
+chosen - ['dad']
+anagrams - [['ann', 'add'], ['ann', 'dad'], ['add', 'ann'], ['add', 'nan'], ['nan', 'add'], ['nan', 'dad'], ['dad', 'ann'], ['dad', 'nan']]
+nest - 1
+word (hopefully) - ada
+ada
+phrase - ['a', 'n', 'd', 'a', 'n', 'd']
+word_list - ['ann', 'dada', 'add', 'dana', 'nan', 'dad', 'dan', 'ada', 'anna', 'and']
+left - ['n', 'a', 'n']
+index - [5, 8]
+chosen - ['dad']
+anagrams - [['ann', 'add'], ['ann', 'dad'], ['add', 'ann'], ['add', 'nan'], ['nan', 'add'], ['nan', 'dad'], ['dad', 'ann'], ['dad', 'nan']]
+nest - 1
+word (hopefully) - anna
+anna
+phrase - ['a', 'n', 'd', 'a', 'n', 'd']
+word_list - ['ann', 'dada', 'add', 'dana', 'nan', 'dad', 'dan', 'ada', 'anna', 'and']
+left - ['n', 'a', 'n']
+index - [5, 9]
+chosen - ['dad']
+anagrams - [['ann', 'add'], ['ann', 'dad'], ['add', 'ann'], ['add', 'nan'], ['nan', 'add'], ['nan', 'dad'], ['dad', 'ann'], ['dad', 'nan']]
+nest - 1
+word (hopefully) - and
+and
+phrase - ['a', 'n', 'd', 'a', 'n', 'd']
+word_list - ['ann', 'dada', 'add', 'dana', 'nan', 'dad', 'dan', 'ada', 'anna', 'and']
+left - ['n', 'a', 'n']
+index - [5, 10]
+chosen - ['dad']
+anagrams - [['ann', 'add'], ['ann', 'dad'], ['add', 'ann'], ['add', 'nan'], ['nan', 'add'], ['nan', 'dad'], ['dad', 'ann'], ['dad', 'nan']]
+nest - 1
+opt 3 dad
+phrase - ['a', 'n', 'd', 'a', 'n', 'd']
+word_list - ['ann', 'dada', 'add', 'dana', 'nan', 'dad', 'dan', 'ada', 'anna', 'and']
+left - ['n', 'a', 'n', 'd', 'a', 'd']
+index - [6, 10]
+chosen - []
+anagrams - [['ann', 'add'], ['ann', 'dad'], ['add', 'ann'], ['add', 'nan'], ['nan', 'add'], ['nan', 'dad'], ['dad', 'ann'], ['dad', 'nan']]
+nest - 0
+word (hopefully) - dan
+dan
+opt 2 dan
+phrase - ['a', 'n', 'd', 'a', 'n', 'd']
+word_list - ['ann', 'dada', 'add', 'dana', 'nan', 'dad', 'dan', 'ada', 'anna', 'and']
+left - ['n', 'a', 'd']
+index - [6, 0]
+chosen - ['dan']
+anagrams - [['ann', 'add'], ['ann', 'dad'], ['add', 'ann'], ['add', 'nan'], ['nan', 'add'], ['nan', 'dad'], ['dad', 'ann'], ['dad', 'nan']]
+nest - 1
+word (hopefully) - ann
+ann
+phrase - ['a', 'n', 'd', 'a', 'n', 'd']
+word_list - ['ann', 'dada', 'add', 'dana', 'nan', 'dad', 'dan', 'ada', 'anna', 'and']
+left - ['n', 'a', 'd']
+index - [6, 1]
+chosen - ['dan']
+anagrams - [['ann', 'add'], ['ann', 'dad'], ['add', 'ann'], ['add', 'nan'], ['nan', 'add'], ['nan', 'dad'], ['dad', 'ann'], ['dad', 'nan']]
+nest - 1
+word (hopefully) - dada
+dada
+phrase - ['a', 'n', 'd', 'a', 'n', 'd']
+word_list - ['ann', 'dada', 'add', 'dana', 'nan', 'dad', 'dan', 'ada', 'anna', 'and']
+left - ['n', 'a', 'd']
+index - [6, 2]
+chosen - ['dan']
+anagrams - [['ann', 'add'], ['ann', 'dad'], ['add', 'ann'], ['add', 'nan'], ['nan', 'add'], ['nan', 'dad'], ['dad', 'ann'], ['dad', 'nan']]
+nest - 1
+word (hopefully) - add
+add
+phrase - ['a', 'n', 'd', 'a', 'n', 'd']
+word_list - ['ann', 'dada', 'add', 'dana', 'nan', 'dad', 'dan', 'ada', 'anna', 'and']
+left - ['n', 'a', 'd']
+index - [6, 3]
+chosen - ['dan']
+anagrams - [['ann', 'add'], ['ann', 'dad'], ['add', 'ann'], ['add', 'nan'], ['nan', 'add'], ['nan', 'dad'], ['dad', 'ann'], ['dad', 'nan']]
+nest - 1
+word (hopefully) - dana
+dana
+phrase - ['a', 'n', 'd', 'a', 'n', 'd']
+word_list - ['ann', 'dada', 'add', 'dana', 'nan', 'dad', 'dan', 'ada', 'anna', 'and']
+left - ['n', 'a', 'd']
+index - [6, 4]
+chosen - ['dan']
+anagrams - [['ann', 'add'], ['ann', 'dad'], ['add', 'ann'], ['add', 'nan'], ['nan', 'add'], ['nan', 'dad'], ['dad', 'ann'], ['dad', 'nan']]
+nest - 1
+word (hopefully) - nan
+nan
+phrase - ['a', 'n', 'd', 'a', 'n', 'd']
+word_list - ['ann', 'dada', 'add', 'dana', 'nan', 'dad', 'dan', 'ada', 'anna', 'and']
+left - ['n', 'a', 'd']
+index - [6, 5]
+chosen - ['dan']
+anagrams - [['ann', 'add'], ['ann', 'dad'], ['add', 'ann'], ['add', 'nan'], ['nan', 'add'], ['nan', 'dad'], ['dad', 'ann'], ['dad', 'nan']]
+nest - 1
+word (hopefully) - dad
+dad
+phrase - ['a', 'n', 'd', 'a', 'n', 'd']
+word_list - ['ann', 'dada', 'add', 'dana', 'nan', 'dad', 'dan', 'ada', 'anna', 'and']
+left - ['n', 'a', 'd']
+index - [6, 6]
+chosen - ['dan']
+anagrams - [['ann', 'add'], ['ann', 'dad'], ['add', 'ann'], ['add', 'nan'], ['nan', 'add'], ['nan', 'dad'], ['dad', 'ann'], ['dad', 'nan']]
+nest - 1
+word (hopefully) - dan
+dan
+opt 1 dan dan
+phrase - ['a', 'n', 'd', 'a', 'n', 'd']
+word_list - ['ann', 'dada', 'add', 'dana', 'nan', 'dad', 'dan', 'ada', 'anna', 'and']
+left - ['n', 'a', 'd']
+index - [6, 7]
+chosen - ['dan']
+anagrams - [['ann', 'add'], ['ann', 'dad'], ['add', 'ann'], ['add', 'nan'], ['nan', 'add'], ['nan', 'dad'], ['dad', 'ann'], ['dad', 'nan'], ['dan', 'dan']]
+nest - 1
+word (hopefully) - ada
+ada
+phrase - ['a', 'n', 'd', 'a', 'n', 'd']
+word_list - ['ann', 'dada', 'add', 'dana', 'nan', 'dad', 'dan', 'ada', 'anna', 'and']
+left - ['n', 'a', 'd']
+index - [6, 8]
+chosen - ['dan']
+anagrams - [['ann', 'add'], ['ann', 'dad'], ['add', 'ann'], ['add', 'nan'], ['nan', 'add'], ['nan', 'dad'], ['dad', 'ann'], ['dad', 'nan'], ['dan', 'dan']]
+nest - 1
+word (hopefully) - anna
+anna
+phrase - ['a', 'n', 'd', 'a', 'n', 'd']
+word_list - ['ann', 'dada', 'add', 'dana', 'nan', 'dad', 'dan', 'ada', 'anna', 'and']
+left - ['n', 'a', 'd']
+index - [6, 9]
+chosen - ['dan']
+anagrams - [['ann', 'add'], ['ann', 'dad'], ['add', 'ann'], ['add', 'nan'], ['nan', 'add'], ['nan', 'dad'], ['dad', 'ann'], ['dad', 'nan'], ['dan', 'dan']]
+nest - 1
+word (hopefully) - and
+and
+opt 1 dan and
+phrase - ['a', 'n', 'd', 'a', 'n', 'd']
+word_list - ['ann', 'dada', 'add', 'dana', 'nan', 'dad', 'dan', 'ada', 'anna', 'and']
+left - ['n', 'a', 'd']
+index - [6, 10]
+chosen - ['dan']
+anagrams - [['ann', 'add'], ['ann', 'dad'], ['add', 'ann'], ['add', 'nan'], ['nan', 'add'], ['nan', 'dad'], ['dad', 'ann'], ['dad', 'nan'], ['dan', 'dan'], ['dan', 'and']]
+nest - 1
+opt 3 dan
+phrase - ['a', 'n', 'd', 'a', 'n', 'd']
+word_list - ['ann', 'dada', 'add', 'dana', 'nan', 'dad', 'dan', 'ada', 'anna', 'and']
+left - ['n', 'a', 'd', 'd', 'a', 'n']
+index - [7, 10]
+chosen - []
+anagrams - [['ann', 'add'], ['ann', 'dad'], ['add', 'ann'], ['add', 'nan'], ['nan', 'add'], ['nan', 'dad'], ['dad', 'ann'], ['dad', 'nan'], ['dan', 'dan'], ['dan', 'and']]
+nest - 0
+word (hopefully) - ada
+ada
+opt 2 ada
+phrase - ['a', 'n', 'd', 'a', 'n', 'd']
+word_list - ['ann', 'dada', 'add', 'dana', 'nan', 'dad', 'dan', 'ada', 'anna', 'and']
+left - ['n', 'd', 'n']
+index - [7, 0]
+chosen - ['ada']
+anagrams - [['ann', 'add'], ['ann', 'dad'], ['add', 'ann'], ['add', 'nan'], ['nan', 'add'], ['nan', 'dad'], ['dad', 'ann'], ['dad', 'nan'], ['dan', 'dan'], ['dan', 'and']]
+nest - 1
+word (hopefully) - ann
+ann
+phrase - ['a', 'n', 'd', 'a', 'n', 'd']
+word_list - ['ann', 'dada', 'add', 'dana', 'nan', 'dad', 'dan', 'ada', 'anna', 'and']
+left - ['n', 'd', 'n']
+index - [7, 1]
+chosen - ['ada']
+anagrams - [['ann', 'add'], ['ann', 'dad'], ['add', 'ann'], ['add', 'nan'], ['nan', 'add'], ['nan', 'dad'], ['dad', 'ann'], ['dad', 'nan'], ['dan', 'dan'], ['dan', 'and']]
+nest - 1
+word (hopefully) - dada
+dada
+phrase - ['a', 'n', 'd', 'a', 'n', 'd']
+word_list - ['ann', 'dada', 'add', 'dana', 'nan', 'dad', 'dan', 'ada', 'anna', 'and']
+left - ['n', 'd', 'n']
+index - [7, 2]
+chosen - ['ada']
+anagrams - [['ann', 'add'], ['ann', 'dad'], ['add', 'ann'], ['add', 'nan'], ['nan', 'add'], ['nan', 'dad'], ['dad', 'ann'], ['dad', 'nan'], ['dan', 'dan'], ['dan', 'and']]
+nest - 1
+word (hopefully) - add
+add
+phrase - ['a', 'n', 'd', 'a', 'n', 'd']
+word_list - ['ann', 'dada', 'add', 'dana', 'nan', 'dad', 'dan', 'ada', 'anna', 'and']
+left - ['n', 'd', 'n']
+index - [7, 3]
+chosen - ['ada']
+anagrams - [['ann', 'add'], ['ann', 'dad'], ['add', 'ann'], ['add', 'nan'], ['nan', 'add'], ['nan', 'dad'], ['dad', 'ann'], ['dad', 'nan'], ['dan', 'dan'], ['dan', 'and']]
+nest - 1
+word (hopefully) - dana
+dana
+phrase - ['a', 'n', 'd', 'a', 'n', 'd']
+word_list - ['ann', 'dada', 'add', 'dana', 'nan', 'dad', 'dan', 'ada', 'anna', 'and']
+left - ['n', 'd', 'n']
+index - [7, 4]
+chosen - ['ada']
+anagrams - [['ann', 'add'], ['ann', 'dad'], ['add', 'ann'], ['add', 'nan'], ['nan', 'add'], ['nan', 'dad'], ['dad', 'ann'], ['dad', 'nan'], ['dan', 'dan'], ['dan', 'and']]
+nest - 1
+word (hopefully) - nan
+nan
+phrase - ['a', 'n', 'd', 'a', 'n', 'd']
+word_list - ['ann', 'dada', 'add', 'dana', 'nan', 'dad', 'dan', 'ada', 'anna', 'and']
+left - ['n', 'd', 'n']
+index - [7, 5]
+chosen - ['ada']
+anagrams - [['ann', 'add'], ['ann', 'dad'], ['add', 'ann'], ['add', 'nan'], ['nan', 'add'], ['nan', 'dad'], ['dad', 'ann'], ['dad', 'nan'], ['dan', 'dan'], ['dan', 'and']]
+nest - 1
+word (hopefully) - dad
+dad
+phrase - ['a', 'n', 'd', 'a', 'n', 'd']
+word_list - ['ann', 'dada', 'add', 'dana', 'nan', 'dad', 'dan', 'ada', 'anna', 'and']
+left - ['n', 'd', 'n']
+index - [7, 6]
+chosen - ['ada']
+anagrams - [['ann', 'add'], ['ann', 'dad'], ['add', 'ann'], ['add', 'nan'], ['nan', 'add'], ['nan', 'dad'], ['dad', 'ann'], ['dad', 'nan'], ['dan', 'dan'], ['dan', 'and']]
+nest - 1
+word (hopefully) - dan
+dan
+phrase - ['a', 'n', 'd', 'a', 'n', 'd']
+word_list - ['ann', 'dada', 'add', 'dana', 'nan', 'dad', 'dan', 'ada', 'anna', 'and']
+left - ['n', 'd', 'n']
+index - [7, 7]
+chosen - ['ada']
+anagrams - [['ann', 'add'], ['ann', 'dad'], ['add', 'ann'], ['add', 'nan'], ['nan', 'add'], ['nan', 'dad'], ['dad', 'ann'], ['dad', 'nan'], ['dan', 'dan'], ['dan', 'and']]
+nest - 1
+word (hopefully) - ada
+ada
+phrase - ['a', 'n', 'd', 'a', 'n', 'd']
+word_list - ['ann', 'dada', 'add', 'dana', 'nan', 'dad', 'dan', 'ada', 'anna', 'and']
+left - ['n', 'd', 'n']
+index - [7, 8]
+chosen - ['ada']
+anagrams - [['ann', 'add'], ['ann', 'dad'], ['add', 'ann'], ['add', 'nan'], ['nan', 'add'], ['nan', 'dad'], ['dad', 'ann'], ['dad', 'nan'], ['dan', 'dan'], ['dan', 'and']]
+nest - 1
+word (hopefully) - anna
+anna
+phrase - ['a', 'n', 'd', 'a', 'n', 'd']
+word_list - ['ann', 'dada', 'add', 'dana', 'nan', 'dad', 'dan', 'ada', 'anna', 'and']
+left - ['n', 'd', 'n']
+index - [7, 9]
+chosen - ['ada']
+anagrams - [['ann', 'add'], ['ann', 'dad'], ['add', 'ann'], ['add', 'nan'], ['nan', 'add'], ['nan', 'dad'], ['dad', 'ann'], ['dad', 'nan'], ['dan', 'dan'], ['dan', 'and']]
+nest - 1
+word (hopefully) - and
+and
+phrase - ['a', 'n', 'd', 'a', 'n', 'd']
+word_list - ['ann', 'dada', 'add', 'dana', 'nan', 'dad', 'dan', 'ada', 'anna', 'and']
+left - ['n', 'd', 'n']
+index - [7, 10]
+chosen - ['ada']
+anagrams - [['ann', 'add'], ['ann', 'dad'], ['add', 'ann'], ['add', 'nan'], ['nan', 'add'], ['nan', 'dad'], ['dad', 'ann'], ['dad', 'nan'], ['dan', 'dan'], ['dan', 'and']]
+nest - 1
+opt 3 ada
+phrase - ['a', 'n', 'd', 'a', 'n', 'd']
+word_list - ['ann', 'dada', 'add', 'dana', 'nan', 'dad', 'dan', 'ada', 'anna', 'and']
+left - ['n', 'd', 'n', 'a', 'd', 'a']
+index - [8, 10]
+chosen - []
+anagrams - [['ann', 'add'], ['ann', 'dad'], ['add', 'ann'], ['add', 'nan'], ['nan', 'add'], ['nan', 'dad'], ['dad', 'ann'], ['dad', 'nan'], ['dan', 'dan'], ['dan', 'and']]
+nest - 0
+word (hopefully) - anna
+anna
+opt 2 anna
+phrase - ['a', 'n', 'd', 'a', 'n', 'd']
+word_list - ['ann', 'dada', 'add', 'dana', 'nan', 'dad', 'dan', 'ada', 'anna', 'and']
+left - ['d', 'd']
+index - [8, 0]
+chosen - ['anna']
+anagrams - [['ann', 'add'], ['ann', 'dad'], ['add', 'ann'], ['add', 'nan'], ['nan', 'add'], ['nan', 'dad'], ['dad', 'ann'], ['dad', 'nan'], ['dan', 'dan'], ['dan', 'and']]
+nest - 1
+word (hopefully) - ann
+ann
+phrase - ['a', 'n', 'd', 'a', 'n', 'd']
+word_list - ['ann', 'dada', 'add', 'dana', 'nan', 'dad', 'dan', 'ada', 'anna', 'and']
+left - ['d', 'd']
+index - [8, 1]
+chosen - ['anna']
+anagrams - [['ann', 'add'], ['ann', 'dad'], ['add', 'ann'], ['add', 'nan'], ['nan', 'add'], ['nan', 'dad'], ['dad', 'ann'], ['dad', 'nan'], ['dan', 'dan'], ['dan', 'and']]
+nest - 1
+word (hopefully) - dada
+dada
+phrase - ['a', 'n', 'd', 'a', 'n', 'd']
+word_list - ['ann', 'dada', 'add', 'dana', 'nan', 'dad', 'dan', 'ada', 'anna', 'and']
+left - ['d', 'd']
+index - [8, 2]
+chosen - ['anna']
+anagrams - [['ann', 'add'], ['ann', 'dad'], ['add', 'ann'], ['add', 'nan'], ['nan', 'add'], ['nan', 'dad'], ['dad', 'ann'], ['dad', 'nan'], ['dan', 'dan'], ['dan', 'and']]
+nest - 1
+word (hopefully) - add
+add
+phrase - ['a', 'n', 'd', 'a', 'n', 'd']
+word_list - ['ann', 'dada', 'add', 'dana', 'nan', 'dad', 'dan', 'ada', 'anna', 'and']
+left - ['d', 'd']
+index - [8, 3]
+chosen - ['anna']
+anagrams - [['ann', 'add'], ['ann', 'dad'], ['add', 'ann'], ['add', 'nan'], ['nan', 'add'], ['nan', 'dad'], ['dad', 'ann'], ['dad', 'nan'], ['dan', 'dan'], ['dan', 'and']]
+nest - 1
+word (hopefully) - dana
+dana
+phrase - ['a', 'n', 'd', 'a', 'n', 'd']
+word_list - ['ann', 'dada', 'add', 'dana', 'nan', 'dad', 'dan', 'ada', 'anna', 'and']
+left - ['d', 'd']
+index - [8, 4]
+chosen - ['anna']
+anagrams - [['ann', 'add'], ['ann', 'dad'], ['add', 'ann'], ['add', 'nan'], ['nan', 'add'], ['nan', 'dad'], ['dad', 'ann'], ['dad', 'nan'], ['dan', 'dan'], ['dan', 'and']]
+nest - 1
+word (hopefully) - nan
+nan
+phrase - ['a', 'n', 'd', 'a', 'n', 'd']
+word_list - ['ann', 'dada', 'add', 'dana', 'nan', 'dad', 'dan', 'ada', 'anna', 'and']
+left - ['d', 'd']
+index - [8, 5]
+chosen - ['anna']
+anagrams - [['ann', 'add'], ['ann', 'dad'], ['add', 'ann'], ['add', 'nan'], ['nan', 'add'], ['nan', 'dad'], ['dad', 'ann'], ['dad', 'nan'], ['dan', 'dan'], ['dan', 'and']]
+nest - 1
+word (hopefully) - dad
+dad
+phrase - ['a', 'n', 'd', 'a', 'n', 'd']
+word_list - ['ann', 'dada', 'add', 'dana', 'nan', 'dad', 'dan', 'ada', 'anna', 'and']
+left - ['d', 'd']
+index - [8, 6]
+chosen - ['anna']
+anagrams - [['ann', 'add'], ['ann', 'dad'], ['add', 'ann'], ['add', 'nan'], ['nan', 'add'], ['nan', 'dad'], ['dad', 'ann'], ['dad', 'nan'], ['dan', 'dan'], ['dan', 'and']]
+nest - 1
+word (hopefully) - dan
+dan
+phrase - ['a', 'n', 'd', 'a', 'n', 'd']
+word_list - ['ann', 'dada', 'add', 'dana', 'nan', 'dad', 'dan', 'ada', 'anna', 'and']
+left - ['d', 'd']
+index - [8, 7]
+chosen - ['anna']
+anagrams - [['ann', 'add'], ['ann', 'dad'], ['add', 'ann'], ['add', 'nan'], ['nan', 'add'], ['nan', 'dad'], ['dad', 'ann'], ['dad', 'nan'], ['dan', 'dan'], ['dan', 'and']]
+nest - 1
+word (hopefully) - ada
+ada
+phrase - ['a', 'n', 'd', 'a', 'n', 'd']
+word_list - ['ann', 'dada', 'add', 'dana', 'nan', 'dad', 'dan', 'ada', 'anna', 'and']
+left - ['d', 'd']
+index - [8, 8]
+chosen - ['anna']
+anagrams - [['ann', 'add'], ['ann', 'dad'], ['add', 'ann'], ['add', 'nan'], ['nan', 'add'], ['nan', 'dad'], ['dad', 'ann'], ['dad', 'nan'], ['dan', 'dan'], ['dan', 'and']]
+nest - 1
+word (hopefully) - anna
+anna
+phrase - ['a', 'n', 'd', 'a', 'n', 'd']
+word_list - ['ann', 'dada', 'add', 'dana', 'nan', 'dad', 'dan', 'ada', 'anna', 'and']
+left - ['d', 'd']
+index - [8, 9]
+chosen - ['anna']
+anagrams - [['ann', 'add'], ['ann', 'dad'], ['add', 'ann'], ['add', 'nan'], ['nan', 'add'], ['nan', 'dad'], ['dad', 'ann'], ['dad', 'nan'], ['dan', 'dan'], ['dan', 'and']]
+nest - 1
+word (hopefully) - and
+and
+phrase - ['a', 'n', 'd', 'a', 'n', 'd']
+word_list - ['ann', 'dada', 'add', 'dana', 'nan', 'dad', 'dan', 'ada', 'anna', 'and']
+left - ['d', 'd']
+index - [8, 10]
+chosen - ['anna']
+anagrams - [['ann', 'add'], ['ann', 'dad'], ['add', 'ann'], ['add', 'nan'], ['nan', 'add'], ['nan', 'dad'], ['dad', 'ann'], ['dad', 'nan'], ['dan', 'dan'], ['dan', 'and']]
+nest - 1
+opt 3 anna
+phrase - ['a', 'n', 'd', 'a', 'n', 'd']
+word_list - ['ann', 'dada', 'add', 'dana', 'nan', 'dad', 'dan', 'ada', 'anna', 'and']
+left - ['d', 'd', 'a', 'n', 'n', 'a']
+index - [9, 10]
+chosen - []
+anagrams - [['ann', 'add'], ['ann', 'dad'], ['add', 'ann'], ['add', 'nan'], ['nan', 'add'], ['nan', 'dad'], ['dad', 'ann'], ['dad', 'nan'], ['dan', 'dan'], ['dan', 'and']]
+nest - 0
+word (hopefully) - and
+and
+opt 2 and
+phrase - ['a', 'n', 'd', 'a', 'n', 'd']
+word_list - ['ann', 'dada', 'add', 'dana', 'nan', 'dad', 'dan', 'ada', 'anna', 'and']
+left - ['d', 'n', 'a']
+index - [9, 0]
+chosen - ['and']
+anagrams - [['ann', 'add'], ['ann', 'dad'], ['add', 'ann'], ['add', 'nan'], ['nan', 'add'], ['nan', 'dad'], ['dad', 'ann'], ['dad', 'nan'], ['dan', 'dan'], ['dan', 'and']]
+nest - 1
+word (hopefully) - ann
+ann
+phrase - ['a', 'n', 'd', 'a', 'n', 'd']
+word_list - ['ann', 'dada', 'add', 'dana', 'nan', 'dad', 'dan', 'ada', 'anna', 'and']
+left - ['d', 'n', 'a']
+index - [9, 1]
+chosen - ['and']
+anagrams - [['ann', 'add'], ['ann', 'dad'], ['add', 'ann'], ['add', 'nan'], ['nan', 'add'], ['nan', 'dad'], ['dad', 'ann'], ['dad', 'nan'], ['dan', 'dan'], ['dan', 'and']]
+nest - 1
+word (hopefully) - dada
+dada
+phrase - ['a', 'n', 'd', 'a', 'n', 'd']
+word_list - ['ann', 'dada', 'add', 'dana', 'nan', 'dad', 'dan', 'ada', 'anna', 'and']
+left - ['d', 'n', 'a']
+index - [9, 2]
+chosen - ['and']
+anagrams - [['ann', 'add'], ['ann', 'dad'], ['add', 'ann'], ['add', 'nan'], ['nan', 'add'], ['nan', 'dad'], ['dad', 'ann'], ['dad', 'nan'], ['dan', 'dan'], ['dan', 'and']]
+nest - 1
+word (hopefully) - add
+add
+phrase - ['a', 'n', 'd', 'a', 'n', 'd']
+word_list - ['ann', 'dada', 'add', 'dana', 'nan', 'dad', 'dan', 'ada', 'anna', 'and']
+left - ['d', 'n', 'a']
+index - [9, 3]
+chosen - ['and']
+anagrams - [['ann', 'add'], ['ann', 'dad'], ['add', 'ann'], ['add', 'nan'], ['nan', 'add'], ['nan', 'dad'], ['dad', 'ann'], ['dad', 'nan'], ['dan', 'dan'], ['dan', 'and']]
+nest - 1
+word (hopefully) - dana
+dana
+phrase - ['a', 'n', 'd', 'a', 'n', 'd']
+word_list - ['ann', 'dada', 'add', 'dana', 'nan', 'dad', 'dan', 'ada', 'anna', 'and']
+left - ['d', 'n', 'a']
+index - [9, 4]
+chosen - ['and']
+anagrams - [['ann', 'add'], ['ann', 'dad'], ['add', 'ann'], ['add', 'nan'], ['nan', 'add'], ['nan', 'dad'], ['dad', 'ann'], ['dad', 'nan'], ['dan', 'dan'], ['dan', 'and']]
+nest - 1
+word (hopefully) - nan
+nan
+phrase - ['a', 'n', 'd', 'a', 'n', 'd']
+word_list - ['ann', 'dada', 'add', 'dana', 'nan', 'dad', 'dan', 'ada', 'anna', 'and']
+left - ['d', 'n', 'a']
+index - [9, 5]
+chosen - ['and']
+anagrams - [['ann', 'add'], ['ann', 'dad'], ['add', 'ann'], ['add', 'nan'], ['nan', 'add'], ['nan', 'dad'], ['dad', 'ann'], ['dad', 'nan'], ['dan', 'dan'], ['dan', 'and']]
+nest - 1
+word (hopefully) - dad
+dad
+phrase - ['a', 'n', 'd', 'a', 'n', 'd']
+word_list - ['ann', 'dada', 'add', 'dana', 'nan', 'dad', 'dan', 'ada', 'anna', 'and']
+left - ['d', 'n', 'a']
+index - [9, 6]
+chosen - ['and']
+anagrams - [['ann', 'add'], ['ann', 'dad'], ['add', 'ann'], ['add', 'nan'], ['nan', 'add'], ['nan', 'dad'], ['dad', 'ann'], ['dad', 'nan'], ['dan', 'dan'], ['dan', 'and']]
+nest - 1
+word (hopefully) - dan
+dan
+opt 1 and dan
+phrase - ['a', 'n', 'd', 'a', 'n', 'd']
+word_list - ['ann', 'dada', 'add', 'dana', 'nan', 'dad', 'dan', 'ada', 'anna', 'and']
+left - ['d', 'n', 'a']
+index - [9, 7]
+chosen - ['and']
+anagrams - [['ann', 'add'], ['ann', 'dad'], ['add', 'ann'], ['add', 'nan'], ['nan', 'add'], ['nan', 'dad'], ['dad', 'ann'], ['dad', 'nan'], ['dan', 'dan'], ['dan', 'and'], ['and', 'dan']]
+nest - 1
+word (hopefully) - ada
+ada
+phrase - ['a', 'n', 'd', 'a', 'n', 'd']
+word_list - ['ann', 'dada', 'add', 'dana', 'nan', 'dad', 'dan', 'ada', 'anna', 'and']
+left - ['d', 'n', 'a']
+index - [9, 8]
+chosen - ['and']
+anagrams - [['ann', 'add'], ['ann', 'dad'], ['add', 'ann'], ['add', 'nan'], ['nan', 'add'], ['nan', 'dad'], ['dad', 'ann'], ['dad', 'nan'], ['dan', 'dan'], ['dan', 'and'], ['and', 'dan']]
+nest - 1
+word (hopefully) - anna
+anna
+phrase - ['a', 'n', 'd', 'a', 'n', 'd']
+word_list - ['ann', 'dada', 'add', 'dana', 'nan', 'dad', 'dan', 'ada', 'anna', 'and']
+left - ['d', 'n', 'a']
+index - [9, 9]
+chosen - ['and']
+anagrams - [['ann', 'add'], ['ann', 'dad'], ['add', 'ann'], ['add', 'nan'], ['nan', 'add'], ['nan', 'dad'], ['dad', 'ann'], ['dad', 'nan'], ['dan', 'dan'], ['dan', 'and'], ['and', 'dan']]
+nest - 1
+word (hopefully) - and
+and
+opt 1 and and
+phrase - ['a', 'n', 'd', 'a', 'n', 'd']
+word_list - ['ann', 'dada', 'add', 'dana', 'nan', 'dad', 'dan', 'ada', 'anna', 'and']
+left - ['d', 'n', 'a']
+index - [9, 10]
+chosen - ['and']
+anagrams - [['ann', 'add'], ['ann', 'dad'], ['add', 'ann'], ['add', 'nan'], ['nan', 'add'], ['nan', 'dad'], ['dad', 'ann'], ['dad', 'nan'], ['dan', 'dan'], ['dan', 'and'], ['and', 'dan'], ['and', 'and']]
+nest - 1
+opt 3 and
+phrase - ['a', 'n', 'd', 'a', 'n', 'd']
+word_list - ['ann', 'dada', 'add', 'dana', 'nan', 'dad', 'dan', 'ada', 'anna', 'and']
+left - ['d', 'n', 'a', 'a', 'n', 'd']
+index - [10, 10]
+chosen - []
+anagrams - [['ann', 'add'], ['ann', 'dad'], ['add', 'ann'], ['add', 'nan'], ['nan', 'add'], ['nan', 'dad'], ['dad', 'ann'], ['dad', 'nan'], ['dan', 'dan'], ['dan', 'and'], ['and', 'dan'], ['and', 'and']]
+nest - 0
+opt 3 
